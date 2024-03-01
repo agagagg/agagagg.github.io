@@ -197,7 +197,11 @@
 </div>
 </section>
 <div id="rating_desc" class="notification is-primary has-text-weight-bold" style="display:none; position: relative; bottom: 200px; margin: 0px auto; max-width: 400px; text-align:center;"></div>
-<audio id="musicplayer" autoplay>
+<script> window.addEventListener("load", function() {
+const audio = new Audio("https://stream.gensokyoradio.net/1");
+audio.play();
+});</script>
+        <audio id="musicplayer" autoplay>
     <source src="https://stream.gensokyoradio.net/1/" />
   </audio>
 </body>
