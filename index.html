@@ -33,7 +33,7 @@
             overflow:hidden;
         }
     </style>
-<body onclick="toggleStream('https://stream.gensokyoradio.net/1/')">
+<body>
 <div id="bg1" style="position:absolute; top:0; left:0; width:100%; height:100%; background: fixed no-repeat; background-size: cover; filter: blur(16px) brightness(0.5) grayscale(1);"></div>
 <div style="position:absolute; top:0; left:0; width:100%; height:100%; background-color: #2058;"></div>
 <section id="heroMain" class="hero is-primary is-fullheight video">
@@ -140,9 +140,5 @@
 </div>
 </section>
 <div id="rating_desc" class="notification is-primary has-text-weight-bold" style="display:none; position: relative; bottom: 200px; margin: 0px auto; max-width: 400px; text-align:center;"></div>
-<script> window.addEventListener("load", function() {
-const audio = new Audio("https://stream.gensokyoradio.net/1");
-audio.play();
-});</script>
 </body>
 </html>
