@@ -2,7 +2,7 @@
   opacity: 1;
 }
 #a {
-    opacity: 0.05;
+    opacity: 0.15;
     transition: all 1.5s cubic-bezier(0,1.53,.57,.42);
   }
 
